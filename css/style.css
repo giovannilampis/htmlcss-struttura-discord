@@ -12,11 +12,11 @@
 
 }
 
-.container-1 {
-    width: 85%;
-    margin: 0 auto;
+.container {
+    width: calc(100% / 3 * 2);
 }
 
-.container-2 {
-    width: calc(100% / 3 * 2);
+.flexbox {
+    display: flex;
+    justify-content: space-between;
 }
