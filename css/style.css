@@ -63,6 +63,15 @@ section.grey {
     height: 15rem;
 }
 
+.text-section {
+    text-align: center;
+}
+
+.invitation {
+    width: calc(100% / 2);
+    margin: 0 auto;
+}
+
 /* FOOTER */
 footer {
     background-color: var(--footer-background);
