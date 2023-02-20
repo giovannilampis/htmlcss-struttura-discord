@@ -23,12 +23,13 @@
     --white: rgba(255, 255, 255, 1);
     --header-background: rgba(49, 97, 225, 1);
     --footer-background: rgba(35, 39, 42, 1);
+    --lilac: rgba(144, 161, 220, 1);
 }
 
 /* HEADER */
 header {
     background-color: var(--header-background);
-    height: 15rem;
+    height: 25rem;
 }
 
 nav {
@@ -64,20 +65,19 @@ a {
 }
 
 .head-text > p {
-    padding: 2rem 0 1rem 0;
+    padding: 2.5rem 0 2rem 0;
 }
 
 .download-section {
     margin: 0 auto;
     width: calc(100% / 3 * 2);
-    margin-top: 1rem;
 }
 
 .download-section > a {
     background-color: var(--footer-background);
     color: var(--white);
     border-radius: 3rem;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
 }
 
 .download-section a:first-child {
@@ -108,7 +108,7 @@ section.grey {
 }
 
 .invitation > a {
-    background-color: var(--header-background);
+    background-color: rgba(144, 161, 220, 1);
     border-radius: 3rem;
     padding: 1rem 2rem;
 }
@@ -120,5 +120,15 @@ section.grey {
 /* FOOTER */
 footer {
     background-color: var(--footer-background);
-    height: 15rem;
+    height: 30rem;
+    color: var(--white);
+    padding: 3rem 0 1rem 0;
+}
+
+footer ul > li:first-child {
+    color: var(--lilac);
+}
+
+footer.container:first-child {
+    margin-bottom: 1px solid var(--lilac);
 }
