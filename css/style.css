@@ -31,9 +31,18 @@ header {
     height: 15rem;
 }
 
-.head-text {
-    width: 40%;
-    margin: 0 auto;
+nav {
+    padding-top: 0.5rem;
+}
+
+.btn-nav {
+    background-color: var(--white);
+    color: var(--footer-background);
+    border-radius: 1.3rem;
+    padding: 0.65rem 0.75re;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 ul {
@@ -42,14 +51,40 @@ ul {
 
 a {
     text-decoration: none;
+    padding-right: 1rem;
+    color: var(--white);
 }
 
-.btn {
-    border-radius: 1.3rem;
-    padding: 0.65rem 0.75re;
-    text-decoration: none;
-    font-size: 0.9rem;
+.head-text {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.head-text > p {
+    padding: 2rem 0 1rem 0;
+}
+
+.download-section {
+    margin: 0 auto;
+    width: calc(100% / 3 * 2);
+    margin-top: 1rem;
+}
+
+.download-section > a {
+    background-color: var(--footer-background);
+    color: var(--white);
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+}
+
+.download-section a:first-child {
+    background: var(--white);
+    color: var(--footer-background);
     font-weight: bold;
+    margin-right: 1rem;
 }
 
 /* MAIN */
@@ -70,6 +105,16 @@ section.grey {
 .invitation {
     width: calc(100% / 2);
     margin: 0 auto;
+}
+
+.invitation > a {
+    background-color: var(--header-background);
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+}
+
+.invitation h3 {
+    margin: 3rem 0 2rem 0;
 }
 
 /* FOOTER */
