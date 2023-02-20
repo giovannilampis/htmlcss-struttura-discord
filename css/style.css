@@ -9,7 +9,10 @@
 
 /* color variables */
 :root {
-
+    --lightgray: rgba(246, 246, 246, 1);
+    --white: rgba(255, 255, 255, 1);
+    --header-background: rgba(49, 97, 225, 1);
+    --footer-background: rgba(35, 39, 42, 1);
 }
 
 .container {
